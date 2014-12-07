@@ -12,5 +12,6 @@ var oclock = require('./');
 describe('oclock()', function () {
   it('should return current time.', function () {
     oclock().should.equal(moment().format('h:mm A'));
+    oclock(new Date()).should.equal(moment().format('h:mm A'));
   });
 });
