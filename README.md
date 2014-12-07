@@ -1,6 +1,6 @@
 # o-clock [![NPM version](https://badge.fury.io/js/o-clock.svg)](http://badge.fury.io/js/o-clock)
 
-> Simple utility for displaying the time in 12-hour clock format.
+> Simple javascript utility for displaying the time in 12-hour clock format.
 
 ## Install
 ## Install with [npm](npmjs.org)
@@ -20,7 +20,7 @@ npm test
 ```js
 var oclock = require('o-clock');
 
-oclock(new Date());
+oclock();
 //=> 12:59 PM
 ```
 
