@@ -1,5 +1,5 @@
 /*!
- * twelve-hours <https://github.com/jonschlinkert/twelve-hours>
+ * o-clock <https://github.com/jonschlinkert/o-clock>
  *
  * Copyright (c) 2014 Jon Schlinkert, contributors.
  * Licensed under the MIT license.

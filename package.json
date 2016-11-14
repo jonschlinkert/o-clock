@@ -5,7 +5,9 @@
   "homepage": "https://github.com/jonschlinkert/o-clock",
   "author": {
     "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
+    "url": "https://github.com/jonschlinkert",
+    "username": "jonschlinkert",
+    "twitter": "jonschlinkert"
   },
   "repository": {
     "type": "git",
@@ -23,9 +25,10 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
   },
   "devDependencies": {
+    "gulp-format-md": "^0.1.11",
     "mocha": "*",
     "moment": "^2.8.4",
     "should": "*"
@@ -61,5 +64,25 @@
     "wednesday",
     "week",
     "weekday"
-  ]
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    },
+    "related": {
+      "list": []
+    },
+    "reflinks": [
+      "verb",
+      "verb-generate-readme"
+    ]
+  }
 }
