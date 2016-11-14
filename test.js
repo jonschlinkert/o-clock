@@ -14,4 +14,14 @@ describe('oclock()', function () {
     oclock().should.equal(moment().format('h:mm A'));
     oclock(new Date()).should.equal(moment().format('h:mm A'));
   });
+
+  it('should display "12:00 AM" for midnight.', function () {
+    var date = new Date(2016, 10, 14)
+    oclock(date).should.equal(moment(date).format('h:mm A'));
+  });
+
+  it('should display 12:00 PM for noon.', function () {
+    var date = new Date(2016, 10, 14, 12)
+    oclock(date).should.equal(moment(date).format('h:mm A'));
+  });
 });

@@ -16,6 +16,11 @@ module.exports = function oclock(date) {
 function hours(date) {
   var hrs = date.getHours();
   var min = minutes(date);
+
+  if (hrs === 0) return 12 + min + ' AM';
+
+  if (hrs === 12) return 12 + min + ' PM';
+
   return hrs >= 12
     ? hrs - 12 + min + ' PM'
     : hrs + min + ' AM';
