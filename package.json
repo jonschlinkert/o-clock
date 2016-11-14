@@ -1,7 +1,7 @@
 {
   "name": "o-clock",
   "description": "Simple javascript utility for displaying the time in 12-hour clock format.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/o-clock",
   "author": {
     "name": "Jon Schlinkert",
