@@ -3,23 +3,16 @@
   "description": "Simple javascript utility for displaying the time in 12-hour clock format.",
   "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/o-clock",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert",
-    "username": "jonschlinkert",
-    "twitter": "jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/o-clock.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/o-clock",
   "bugs": {
     "url": "https://github.com/jonschlinkert/o-clock/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/o-clock/blob/master/LICENSE-MIT"
-  },
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
